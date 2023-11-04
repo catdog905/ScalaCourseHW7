@@ -1,7 +1,7 @@
 package codecs
-import Json._
-import JsonWriter._
-import JsonReader._
+import codecs.Json._
+import codecs.JsonReader._
+import codecs.JsonWriter._
 
 trait Person {
   def name: String

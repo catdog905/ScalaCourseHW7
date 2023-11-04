@@ -1,6 +1,6 @@
 package codecs
 
-import Json._
+import codecs.Json._
 
 trait JsonReader[A] {
   def read(json: Json): Either[ReaderError, A]

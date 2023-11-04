@@ -1,5 +1,5 @@
 package codecs
-import Json._
+import codecs.Json._
 
 trait JsonWriter[A] {
   def write(a: A): Json

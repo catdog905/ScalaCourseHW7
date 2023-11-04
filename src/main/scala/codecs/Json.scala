@@ -1,9 +1,7 @@
 package codecs
 
 import cats.Show
-import codecs.JsonReader.JsonReaderOps
 
-import scala.annotation.tailrec
 import scala.language.implicitConversions
 
 sealed trait Json
